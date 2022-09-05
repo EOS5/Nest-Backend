@@ -1,6 +1,5 @@
 import { Body, Controller, Get, HttpException, HttpStatus, Param, ParseIntPipe, Post, Req, Res, UsePipes, ValidationPipe } from '@nestjs/common';
 import { Response, Request } from 'express';
-import { get } from 'http';
 import { CreateCustomerDto } from 'src/customers/dtos/CreateCustomer.dot';
 import { CustomersService } from 'src/customers/services/customers/customers.service';
 
